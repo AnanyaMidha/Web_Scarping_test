@@ -19,4 +19,5 @@ if response.status_code == 200:
         author = quote.find("small", class_="author").text
         print(f"Quote: {text}\nAuthor: {author}\n")
 else:
-    print("Failed to retrieve the web page.")
+    print("Failed to retrieve the web page")
+
